@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Student;
+use App\Models\Test;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\carController;
+use App\Models\Car;
 
 
 /*
@@ -28,3 +31,8 @@ Route:: get('/app', function (){
 Route::post('/save-student',[StudentController::class, 'saveStudent']);
 Route::post('/get-students',[StudentController::class, 'getStudents']);
 Route::post('/delete-students',[StudentController::class, 'deleteStudents']);
+
+
+Route::post('/save-car',[carController::class, 'saveCar']);
+Route::post('/get-cars',[carController::class, 'getCars']);
+Route::post('/delete-car',[carController::class, 'deleteCar']);

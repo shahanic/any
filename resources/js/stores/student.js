@@ -19,6 +19,7 @@ export const studentStore = defineStore('student', {
                 this.$reset();
                 this.getter();
             });
+
         },
         getter(){
             axios.post('/get-students').then(({data})=>{

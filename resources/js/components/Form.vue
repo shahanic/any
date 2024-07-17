@@ -20,9 +20,6 @@ const{form} = storeToRefs(student)
         </div>
 
     </div>
-
-    
-    
 </template>
 <script></script>
 

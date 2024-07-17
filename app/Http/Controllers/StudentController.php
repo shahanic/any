@@ -31,7 +31,4 @@ class StudentController extends Controller
         return 1;
     }
 
-
-
-
 }

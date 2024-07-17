@@ -4,6 +4,7 @@
 import Form from './Form.vue'
 import Table from './Table.vue'
 import Lend from './Lend.vue'
+import FormCar from './FormCar.vue'
 
 //const count = countStore()
 //const{counts} = storeToRefs(count)
@@ -12,9 +13,12 @@ import Lend from './Lend.vue'
     <div>
        <!-- <Form />
         <Table /> -->
+        <FormCar />
         <Lend />
+       
+        
     </div>
-</template>
+</template> 
 
 
 
